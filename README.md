@@ -12,6 +12,7 @@ Unido, em parceria com a Turn 10, resultando em um jogo ambientado no estado
 do Colorado, nos Estados Unidos, com um mapa aberto e dinâmico, que permitia 
 ao jogador dirigir por prazer, competir em eventos e descobrir novas experiências 
 ao som de uma trilha sonora moderna dividida em rádios fictícias.
+
 Inspirado em festivais reais como o Glastonbury, o “Horizon Festival” criado 
 no jogo servia como pano de fundo para uma atmosfera vibrante, juvenil e repleta 
 de personalidade. A motivação da equipe de desenvolvimento era clara: tornar a 
@@ -21,6 +22,7 @@ liberdade, música e paixão por carros tornou o primeiro Forza Horizon um suces
 imediato, conquistando a crítica especializada e os jogadores. O impacto do jogo 
 foi tão grande que deu origem a uma das franquias mais queridas do gênero, com 
 continuações lançadas em 2014, 2016, 2018 e 2021.
+
 No entanto, como acontece com muitos jogos que utilizam conteúdo 
 licenciado, Forza Horizon 1 foi removido da loja oficial da Microsoft em 20 de 
 outubro de 2016, exatamente quatro anos após seu lançamento, devido à 
@@ -29,6 +31,7 @@ pode mais ser adquirido digitalmente, embora permaneça jogável para quem já o
 possui. Essa ausência no mercado apenas fortaleceu o sentimento nostálgico 
 entre os fãs, que continuam a valorizar o jogo como uma peça marcante da 
 história dos videogames.
+
 Foi com esse mesmo sentimento que este projeto nasceu: como uma 
 homenagem à memória afetiva que Forza Horizon 1 deixou em muitos jogadores, 
 inclusive em mim. Inspirado pelo impacto emocional e cultural que o jogo teve, 
