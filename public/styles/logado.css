@@ -1,0 +1,300 @@
+body {
+    height: 100vh;
+    display: flex;
+    background: url(../imagens/body/montanha.jpg);
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    backdrop-filter: blur(2px);
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    padding: 0 2%;
+}
+
+main .historia {
+    width: 75%;
+    height: 80%;
+    background: var(--branco);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    padding: 0 80px 30px 80px;
+    color: var(--preto);
+}
+
+main .radioPai {
+    width: 75%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#7c6386e0, #45364be0, #4d3a55e0, #382739);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 0 80px 30px 80px;
+    color: var(--preto);    
+}
+
+
+main .historia .corpoTexto {
+    margin-top: 50px;
+}
+
+main .historia #e1 {
+    width: 100%;
+    text-align: center;
+    background: #E3008D;
+    color: var(--branco);
+    position: absolute;
+    top: -30px;
+    left: 0;
+}
+
+main .historia p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+main .historia h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+main .historia ul {
+    margin: 10px 10px 10px 30px;
+}
+
+main .historia ul li {
+    line-height: 25px;
+
+}
+
+
+main .historia::-webkit-scrollbar {
+    width: 8px;
+}
+
+main .historia::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+main .historia::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+main .navHistoria {
+    width: 20%;
+    height: 80%;
+    background: linear-gradient(#7c6386e0, #45364be0, #4d3a55e0, #382739);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .navHistoria h2 {
+    border-radius: 5px;
+    width: 100%;
+    background-color: #351633;
+    padding: 10px;
+    color: var(--branco);
+    text-align: center;
+}
+
+main .navHistoria .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    height: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main .navHistoria a {
+    color: var(--branco);
+    transition: 0.4s;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+main .navHistoria a:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+    width: 90%;
+    height: 30px;
+    background-color: #e67e22;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+main .navHistoria .btn_radio {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+    width: 90%;
+    height: 30px;
+    background-color: #e67e22;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    color: #fff;
+}
+
+main .navHistoria .btn_radio:hover {
+    background-color: #e67d22cb;
+}
+
+main .estacaoRadio {
+    height: 100%;
+    width: 100%;
+}
+
+main .estacaoRadio .btn_historia {
+    margin-top: 15px;
+    width: 30%;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 14px;
+    border: none;
+    background-color: #e67e22;
+    color: #fff;
+    transition: 0.6s;
+}
+
+main .estacaoRadio .estacoes {
+    margin-top: 80px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+main .estacaoRadio .estacoes .radio {
+    width: 320px;
+    height: 150px;
+    background-color: #e67e22;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+main .estacaoRadio .estacoes .radio:nth-child(1):hover {
+    width: 335px;
+    height: 155px;
+    transition: 0.3s;
+}
+
+main .estacaoRadio .estacoes .radio:nth-child(2):hover {
+    width: 335px;
+    height: 155px;
+    transition: 0.3s;
+}
+
+main .estacaoRadio .estacoes .radio:nth-child(3):hover {
+    width: 335px;
+    height: 155px;
+    transition: 0.3s;
+}
+
+main .estacaoRadio h1 {
+    color: var(--branco);
+    font-size: 23px;
+    text-align: center;
+}
+
+main .estacaoRadio .estacoes .r1 {
+    width: 80%;
+    height: 70%;
+    background-image: url(../imagens/body/horizonPulse.png);
+    background-size: cover;
+}
+
+main .estacaoRadio .estacoes .r2 {
+    width: 80%;
+    height: 70%;
+    background-image: url(../imagens/body/horizonBass.png);
+    background-size: cover;
+}
+
+main .estacaoRadio .estacoes .r3 {
+    width: 80%;
+    height: 70%;
+    background-image: url(../imagens/body/horizonXS.png);
+    background-size: cover;
+}
+
+main .estacaoRadio .playerMusica{
+    width: 100%;
+    height: 50px;
+    margin-top: 10%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .estacaoRadio .player {
+    width: 70%;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.opt {
+    position: absolute;
+    right: 50px;
+    width: 250px;
+    height: 150px;
+    border: 1px solid #7a0873;
+    background: linear-gradient(135deg, #0f0f0f, #1f1f1f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px;
+    opacity: 0;
+    z-index: 2;
+}
+
+.opt button {
+    border-radius: 5px;
+    width: 80%;
+    height: 30px;
+    color: var(--branco);
+    background: #7a0873;
+}
+
+.opt button:hover {
+    background-color: #e67e22;
+}

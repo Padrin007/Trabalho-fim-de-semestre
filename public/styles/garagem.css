@@ -1,0 +1,334 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../imagens/body/background-garagem.jpg");
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    transition:  3s ease-in-out;
+
+}
+
+.paiTransicao{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    transition:  3s ease-in-out;
+
+}
+
+@keyframes fade-in {
+    from {  
+        background: #000;
+    }
+
+    to {
+        background-color: transparent;
+    }
+}
+
+@keyframes fade-out {
+    from {  
+        background: transparent;
+    }
+
+    to {
+        background-color: #000;
+    }
+}
+
+.fade-out {
+    animation: fade-out 2s ease-in-out forwards;
+}
+.fade-in {
+    animation: fade-in 2s ease-in-out forwards;
+}
+
+
+.voltar {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background: var(--amarelo);
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.voltar:hover {
+    background-color: #e67e22;
+
+}
+
+main {
+    width: 80vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main .comprar {
+    font-family: "fontTitulo";
+    width: 215px;
+    height: 45px;
+    background-color: var(--amarelo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+main .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+main .container .marcadores {
+    width: 20%;
+    height: 100%;
+    background: #5e5e5ebb;
+}
+
+main .container .marcadores .marca {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container .marcadores .marca picture {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container .marcadores .marca picture img {
+    width: 100px;
+}
+
+main .container .marcadores .valorCR {
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+}
+
+main .container .marcadores .valorCR,
+.config {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: var(--branco);
+    font-size: 20px;
+}
+
+main .container .marcadores .config {
+    background: transparent;
+    border: none;
+    transition: 0.3s;
+}
+
+main .container .marcadores .config:hover {
+    background: rgba(204, 221, 204, 0.329);
+    transition: 0.3s;
+
+}
+
+main .container .containerCarro {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: #0000009d;
+}
+
+main .container .containerCarro header {
+    width: 90%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .container .containerCarro header .nomeMarca {
+    font-size: 30px;
+    color: var(--branco);
+}
+
+main .container .containerCarro header .nomeModelo {
+    font-size: 25px;
+    color: #7D8D8F;
+}
+
+main .container .containerCarro header .modeloAno {
+    color: var(--branco);
+    font-size: 15px
+}
+
+main .container .containerCarro header .classe {
+    color: #B2B04F;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main .container .containerCarro .imgCarro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container .containerCarro .imgCarro img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+
+}
+
+main .container .segmentosGeral {
+    width: 20%;
+    height: 100%;
+    background: #5e5e5ebb;
+}
+
+main .container .segmentosGeral .classe-tracao {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #000;
+}
+
+main .container .segmentosGeral .classe-tracao .nivel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-right: 1px solid #000;
+}
+
+main .container .segmentosGeral .classe-tracao .nivel img {
+    width: 50%;
+}
+
+main .container .segmentosGeral .classe-tracao .tracao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: var(--branco);
+    font-weight: bold;
+}
+
+main .container .segmentosGeral .segmentos {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--branco);
+    font-weight: bold;
+}
+
+main .container .segmentosGeral .segmentos .seg-conjunto {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--branco);
+    font-weight: bold;
+}
+
+main .container .segmentosGeral .segmentos .seg-conjunto .velocidade .marcadorPorcentagem {
+    width: 150px;
+    height: 8px;
+    border-radius: 5px;
+    background: #000;
+}
+
+main .container .segmentosGeral .segmentos .seg-conjunto .velocidade .marcadorPorcentagem #nivelPorcentagemVelocidade,
+#nivelPorcentagemControle,
+#nivelPorcentagemAceleracao,
+#nivelPorcentagemArrancagem,
+#nivelPorcentagemFrenagem {
+    width: 100px;
+    height: 8px;
+    border-radius: 5px;
+    background: #ffffff;
+    z-index: 2;
+}
+
+
+main .escolherCarro {
+    width: 100%;
+    height: 200px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 0;
+    scroll-behavior: smooth;
+}
+
+main .escolherCarro::-webkit-scrollbar {
+    height: 8px;
+}
+
+main .escolherCarro::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+main .escolherCarro::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+main .carrossel {
+    display: flex;
+    gap: 10px;
+    padding: 0 20px;
+    width: 100%;
+    height: 130px;
+}
+
+main .carrossel .change {
+    flex: 0 0 auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 250px !important;
+    height: 113px !important;
+    background-color: #ccc !important;
+    transition: all 0.3s ease !important;
+}
+
+main .carrossel .change img {
+    width: 150px !important;
+}
+
+main .carrossel .change:hover {
+    transform: scale(1.1) !important;
+    border-bottom: 5px solid #F26536 !important;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - Horizon Garage </title>
+    <link rel="shortcut icon" href="imagens/body/logo-forza.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <!-- KPIs -->
+    <div class="kpis">
+        <div class="card home-btn" onclick="sair()">
+            <h2>Home</h2>
+        </div>
+        <div class="card">
+            <h2><span id="aceleracao"></span>s</h2>
+            <p>Aceleração (0–100 km/h)</p>
+        </div>
+        <div class="card">
+            <h2><span id="torque"></span> Nm</h2>
+            <p>Torque</p>
+        </div>
+        <div class="card">
+            <h2 id="motor"></h2>
+            <p>Motor</p>
+        </div>
+        <div class="card">
+            <h2><span id="potencia"></span></h2>
+            <p>Potência</p>
+        </div>
+        <div class="card">
+            <h2><span id="consumo"></span> km/L</h2>
+            <p>Consumo</p>
+        </div>
+        <div class="card">
+            <h2><span id="temperatura"></span> ºC</h2>
+            <p>Temperatura</p>
+        </div>
+        <div class="card">
+            <h2 id="peso"></h2>
+            <p>Peso</p>
+        </div>
+        <div class="card">
+            <h2><span id="velocidadeMaxima">350</span> KM/h</h2>
+            <p>Velocidade Máxima</p>
+        </div>
+    </div>
+
+    <!-- GRÁFICOS -->
+    <div class="charts">
+        <div class="chart-container">
+            <canvas id="chart1"></canvas>
+        </div>
+        <div class="chart-container">
+            <canvas id="chart2"></canvas>
+        </div>
+        <div class="chart-container">
+            <canvas id="chart3"></canvas>
+        </div>
+        <div class="chart-container">
+            <canvas id="chart4"></canvas>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="javaScript/dash_fichaTecnica.js"></script>
